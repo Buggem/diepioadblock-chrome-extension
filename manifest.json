@@ -1,0 +1,18 @@
+{
+  "name": "Diep.io without ads!!",
+  "version": "1.0",
+  "description": "Hey diep.io lovers, like me! Ever wanted to get rid of pesky ads?? You can!",
+   "content_scripts": [
+   {
+     "matches": ["https://*.diep.io/*"],
+     "js": ["contentScript.js"]
+   }
+ ],
+ "icons": {
+    "16": "ad.png",
+    "32": "ad.png",
+    "48": "ad.png",
+    "128": "ad.png"
+  },
+  "manifest_version": 2
+}
